@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIGILO TOTAL</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="game-container">
+        <canvas id="gameCanvas"></canvas>
+        <div id="ui">
+            <p>Tiempo: <span id="time">0</span> segundos</p>
+            <p>Récord: <span id="record">0</span> segundos</p>
+            <p>Ruido: <span id="noiseLevel">Bajo</span></p>
+        </div>
+        <button id="controls-btn">Controles</button>
+        <div id="controls" class="hidden">
+            <p>WASD / Flechas → Moverse</p>
+            <p>Shift → Sigilo</p>
+            <p>Espacio → Interactuar</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
